@@ -6,13 +6,13 @@
 # =========================================================================
 
 # 1. Parámetros de Red Base (Deben reemplazarse con los IDs generados en AWS)
-VPC_ID="vpc-xxxxxx"                 # ID de tu buymax-vpc
-SG_ID="sg-xxxxxx"                  # ID de tu sg-app-inst
-SUBNET_ID_A="subnet-xxxxxx"         # ID de Subred Aplicación X (us-east-1a)
-SUBNET_ID_B="subnet-xxxxxx"         # ID de Subred Aplicación Y (us-east-1b)
+VPC_ID="vpc-0fc75bf96582e26a8"                
+SG_ID="sg-0d554f8676c67e733"                  
+SUBNET_ID_A="subnet-05e6800e23e40ef3a"         
+SUBNET_ID_B="subnet-05bd4df23cf42610d"         
 
 # 2. Configuración del Hardware Virtual
-AMI_ID="ami-0c7217cdde317cfec"      # Amazon Linux 2023 AMI (us-east-1)
+AMI_ID="ami-01edba92f9036f76e"      # Amazon Linux 2023 AMI (us-east-1)
 INSTANCE_TYPE="t2.micro"            # Hardware académico optimizado en costos
 
 # 3. Script de Arranque (User Data) - Instalación automática del servicio
